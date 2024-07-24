@@ -15,16 +15,29 @@ body {
     height: 72px;
     display: flex;
     background-color: #1F2937;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 208px;
 }
 
 .header-logo {
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: bold;
 }
 
 .header-links {
+    display: flex;
     font-size: 18px;
     color: #E5E7EB;
+    gap: 32px;
+    list-style-type: none;
+    overflow: hidden;
+}
+
+a {
+    color: #E5E7EB;
+    text-decoration: none;
 }
 
 .content {
@@ -37,21 +50,43 @@ body {
     height: 360px;
     display: flex;
     background-color: #1F2937;
+    justify-content: space-between;
+    padding: 52px 208px;
 }
 
-.upper.left {
+.upper .left,
+.upper .right {
     display: flex;
+    flex-direction: column;
+}
+
+.upper .left {
+    gap: 8px;;
 }
 
 .title {
     font-size: 48px;
     font-weight: 800;
     color: #F9FAF8;
+    text-wrap: wrap;
+    width: 520px;
 }
 
 .subtext {
     font-size: 18px;
     color: #E5E7EB;
+    text-wrap: wrap;
+    width: 520px;
+}
+
+button {
+    width: 136px;
+    height: 34px;
+    background-color: #3882F6;
+    border: none;
+    color: #E5E7EB;
+    text-decoration: none;
+    border-radius: 8px;
 }
 
 .upper-middle {
