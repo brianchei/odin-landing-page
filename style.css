@@ -40,17 +40,23 @@ a {
     text-decoration: none;
 }
 
+a.gospel {
+    color: #1F2937;
+    text-decoration: underline;
+}
+
 .content {
-    height: 972px;
+    height: auto;
     display: flex;
     flex-direction: column;
 }
 
 .upper {
-    height: 360px;
+    height: 464px;
     display: flex;
     background-color: #1F2937;
     justify-content: space-between;
+    align-items: center;
     padding: 52px 208px;
 }
 
@@ -61,7 +67,7 @@ a {
 }
 
 .upper .left {
-    gap: 8px;;
+    gap: 16px;;
 }
 
 .title {
@@ -90,31 +96,58 @@ button {
 }
 
 .upper-middle {
-    height: 180px;
+    height: 496px;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
 }
 
 .subtitle {
     font-size: 36px;
     font-weight: 800;
-    color: #1F2937
+    color: #1F2937;
 }
 
 .images {
     display: flex;
+    justify-content: center;
+    gap: 32px;
 }
 
 .img-subtext {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.img-subtext img {
+    border-radius: 16px;
+    border-color: #3882F6;
+    border-width: 4px;
+    border-style: solid;
+}
+
+.img-subtext p {
+    width: 240px;
+    text-align: center;
+    font-size: smaller;
 }
 
 .lower-middle {
-    height: 180px;
+    height: 432px;
     display: flex;
     flex-direction: column;
     background-color: #E5E7EB;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote-box {
+    display: flex;
+    flex-direction: column;
 }
 
 blockquote {
@@ -122,19 +155,47 @@ blockquote {
     font-weight: 300;
     font-style: italic;
     color: #1F2937;
+    width: 720px;
+}
+
+.author {
+    align-self: flex-end;
 }
 
 .lower {
-    height: 180px;
+    height: 352px;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
 }
 
 .call-to-action {
+    width: 1024px;
+    height: 152px;
     display: flex;
+    background-color: #3882F6;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    gap: 128px;
 }
 
+.call {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.right button {
+    border-style: solid;
+    border-color: #F9FAF8;
+    border-width: 2px;
+}
 .footer {
+    height: 98px;
     display: flex;
     background-color: #1F2937;
     color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
 }
