@@ -1,1 +1,2 @@
 # odin-landing-page
+Welcome to my odin-landing page! This project is a variation of the assignment provided by The Odin Project: Project: Landing Page. In making the page, I utilized a variety of skills and tools including html classes, anchors, and inline/block elements as well as css classes, formatting, and most importantly, flexbox. I have customized the landing page to make it my own, so I hope you find it interesting and are able to observe the various tools and techniques used!
